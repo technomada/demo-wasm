@@ -1,1 +1,30 @@
 https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm
+
+----------------------------
+$ sudo pacman -S rustup
+
+$ rustup default stable
+$ vim hello.rs
+$ rustc hello.rs && ./hello
+
+ fn main() {
+     println!("Hello, World!");
+ }
+
+Hello, World!
+-----------------------------
+
+$ cargo install wasm-pack
+    Updating crates.io index
+       Fetch [=================>                                     ]  33.76%  
+
+-----------------------------
+
+
+
+=======================================
+https://wiki.archlinux.org/index.php/Rust
+https://libraries.io/cargo/wasm-pack
+https://hacks.mozilla.org/2018/04/hello-wasm-pack/
+
+
